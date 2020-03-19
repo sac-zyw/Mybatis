@@ -7,5 +7,5 @@ package com.sac;
 public class User {
     private int id;
     private String name;
-    private String passward;
+    private String pwd;
 }
