@@ -1,8 +1,11 @@
 package com.sac.pojo;
 
-import lombok.AllArgsConstructor;
+/**
+ * @author ShiAC
+ * @date 2020/3/24
+ */
+
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 /**
  * @author ShiAC

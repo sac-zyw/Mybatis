@@ -1,0 +1,18 @@
+ãINFOãã20-03-24ããcom.sac.dao.UserMapperTestãinfo:进入了testLog4j
+ãDEBUGãã20-03-24ããcom.sac.dao.UserMapperTestãdebug:进入了testLog4j
+ãERRORãã20-03-24ããcom.sac.dao.UserMapperTestãerror:进入了testLog4j
+ãDEBUGãã20-03-24ããorg.apache.ibatis.logging.LogFactoryãLogging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ãDEBUGãã20-03-24ããorg.apache.ibatis.logging.LogFactoryãLogging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+ãDEBUGãã20-03-24ããorg.apache.ibatis.datasource.pooled.PooledDataSourceãPooledDataSource forcefully closed/removed all connections.
+ãDEBUGãã20-03-24ããorg.apache.ibatis.datasource.pooled.PooledDataSourceãPooledDataSource forcefully closed/removed all connections.
+ãDEBUGãã20-03-24ããorg.apache.ibatis.datasource.pooled.PooledDataSourceãPooledDataSource forcefully closed/removed all connections.
+ãDEBUGãã20-03-24ããorg.apache.ibatis.datasource.pooled.PooledDataSourceãPooledDataSource forcefully closed/removed all connections.
+ãDEBUGãã20-03-24ããorg.apache.ibatis.transaction.jdbc.JdbcTransactionãOpening JDBC Connection
+ãDEBUGãã20-03-24ããorg.apache.ibatis.datasource.pooled.PooledDataSourceãCreated connection 1082309267.
+ãDEBUGãã20-03-24ããorg.apache.ibatis.transaction.jdbc.JdbcTransactionãSetting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4082ba93]
+ãDEBUGãã20-03-24ããcom.sac.dao.UserMapper.getUserListã==>  Preparing: select * from user 
+ãDEBUGãã20-03-24ããcom.sac.dao.UserMapper.getUserListã==> Parameters: 
+ãDEBUGãã20-03-24ããcom.sac.dao.UserMapper.getUserListã<==      Total: 5
+ãDEBUGãã20-03-24ããorg.apache.ibatis.transaction.jdbc.JdbcTransactionãResetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4082ba93]
+ãDEBUGãã20-03-24ããorg.apache.ibatis.transaction.jdbc.JdbcTransactionãClosing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4082ba93]
+ãDEBUGãã20-03-24ããorg.apache.ibatis.datasource.pooled.PooledDataSourceãReturned connection 1082309267 to pool.
