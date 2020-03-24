@@ -30,12 +30,10 @@
         </environment>
     </environments>
 
-<!--绑定配置文件-->
-<!--    <mappers>-->
-<!--        <mapper resource="com/sac/dao/UserMapper.xml"/>-->
-<!--    </mappers>-->
-<!--绑定接口-->
+    <!--绑定配置文件-->
     <mappers>
-        <mapper class="com.sac.dao.UserMapper"/>
+        <mapper class="com.sac.dao.TeacherMapper"/>
+        <mapper class="com.sac.dao.StudentMapper"/>
     </mappers>
+
 </configuration>
