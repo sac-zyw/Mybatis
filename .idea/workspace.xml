@@ -5,14 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="765b3d4e-34a0-4c55-80e8-d5ea11cc015c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/src/main/java/com/sac/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/src/main/java/com/sac/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/src/main/java/com/sac/utils/MybatisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/src/test/java/com/sac/dao/UserMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/target/classes/com/sac/dao/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/target/classes/com/sac/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-04/target/test-classes/com/sac/dao/UserMapperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-03/log/sac.log" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03/log/sac.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-03/src/main/java/com/sac/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03/src/main/java/com/sac/dao/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-03/src/main/java/com/sac/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03/src/main/java/com/sac/dao/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-03/src/test/java/com/sac/dao/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03/src/test/java/com/sac/dao/UserMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-03/target/classes/com/sac/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03/target/classes/com/sac/dao/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-03/target/classes/com/sac/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03/target/classes/com/sac/dao/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-03/target/test-classes/com/sac/dao/UserMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03/target/test-classes/com/sac/dao/UserMapperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-01/target/classes/com/sac/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-02/target/classes/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04/target/classes/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-02/target/classes/com/sac/dao/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-02/target/classes/com/sac/dao/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-02/target/classes/com/sac/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-02/target/classes/com/sac/utils/MybatisUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-02/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-02/target/test-classes/com/sac/dao/UserMapperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-03/target/classes/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-03/target/classes/com/sac/dao/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-03/target/classes/com/sac/dao/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-03/target/classes/com/sac/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-03/target/classes/com/sac/utils/MybatisUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04/target/classes/com/sac/utils/MybatisUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-03/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04/target/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-03/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-03/target/test-classes/com/sac/dao/UserMapperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +57,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SqlMapConfig" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -86,25 +106,30 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Modbus/EasyModbusTCP.Java/EasyModbus/.project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-04/src/main/java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sac.pojo" />
       <recent name="com.sac.dao" />
       <recent name="com.sac" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\Mybatis\mybatis-04\src\main\java" />
+      <recent name="D:\WorkSpace\Mybatis\mybatis-04\src\main\resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserMapperTest.testGetUserByRowBounds">
+  <component name="RunManager" selected="JUnit.UserMapperTest.test">
     <configuration name="UserMapperTest.t1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-03" />
       <extension name="coverage">
@@ -116,6 +141,22 @@
       <option name="PACKAGE_NAME" value="com.sac.dao" />
       <option name="MAIN_CLASS_NAME" value="com.sac.dao.UserMapperTest" />
       <option name="METHOD_NAME" value="t1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sac.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sac.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.sac.dao.UserMapperTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -171,6 +212,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserMapperTest.test" />
         <item itemvalue="JUnit.UserMapperTest.testGetUserByRowBounds" />
         <item itemvalue="JUnit.UserMapperTest.testGetUserByLimit" />
         <item itemvalue="JUnit.UserMapperTest.t1" />
@@ -213,7 +255,7 @@
       <workItem from="1584950371579" duration="612000" />
       <workItem from="1584951607508" duration="2215000" />
       <workItem from="1584960799228" duration="599000" />
-      <workItem from="1585012801925" duration="7605000" />
+      <workItem from="1585012801925" duration="10847000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交mybatis的骨架">
       <created>1584621303525</created>
@@ -264,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585017280978</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="学习了分页查询，limit和面向对象的RowBounds实现方式">
+      <created>1585029473362</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1585029473362</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,41 +362,62 @@
     <MESSAGE value="修改了中文乱码,此处留下记录,mapper的中文注释可能会存在问题" />
     <MESSAGE value="学习SqlMapConfig的配置" />
     <MESSAGE value="学习日志工厂默认实现和LOG4J方式，以及LOG4J的配置文件规则" />
-    <option name="LAST_COMMIT_MESSAGE" value="学习日志工厂默认实现和LOG4J方式，以及LOG4J的配置文件规则" />
+    <MESSAGE value="学习了分页查询，limit和面向对象的RowBounds实现方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="学习了分页查询，limit和面向对象的RowBounds实现方式" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="249" y="39" key="#Project_Structure" timestamp="1585029753133">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="249" y="39" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1585029753133" />
     <state x="0" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585015783537">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1585015783537" />
-    <state x="388" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585013830990">
+    <state x="388" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585029854154">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="388" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1585013830990" />
-    <state x="392" y="0" key="CommitChangelistDialog2" timestamp="1585029423442">
+    <state x="388" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1585029854154" />
+    <state x="392" y="0" key="CommitChangelistDialog2" timestamp="1585029471462">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="392" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585029423442" />
+    <state x="392" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585029471462" />
     <state x="463" y="108" key="FileChooserDialogImpl" timestamp="1584952545410">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584952545410" />
-    <state width="1138" height="278" key="GridCell.Tab.0.bottom" timestamp="1585028681493">
+    <state width="1138" height="278" key="GridCell.Tab.0.bottom" timestamp="1585032359825">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1138" height="278" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585028681493" />
-    <state width="1138" height="278" key="GridCell.Tab.0.center" timestamp="1585028681493">
+    <state width="1138" height="278" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585032359825" />
+    <state width="1138" height="278" key="GridCell.Tab.0.center" timestamp="1585032359824">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1138" height="278" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585028681493" />
-    <state width="1138" height="278" key="GridCell.Tab.0.left" timestamp="1585028681493">
+    <state width="1138" height="278" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585032359824" />
+    <state width="1138" height="278" key="GridCell.Tab.0.left" timestamp="1585032359824">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1138" height="278" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585028681493" />
-    <state width="1138" height="278" key="GridCell.Tab.0.right" timestamp="1585028681493">
+    <state width="1138" height="278" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585032359824" />
+    <state width="1138" height="278" key="GridCell.Tab.0.right" timestamp="1585032359825">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1138" height="278" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585028681493" />
+    <state width="1138" height="278" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585032359825" />
+    <state width="1138" height="204" key="GridCell.Tab.1.bottom" timestamp="1585032139343">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1138" height="204" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585032139343" />
+    <state width="1138" height="204" key="GridCell.Tab.1.center" timestamp="1585032139342">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1138" height="204" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585032139342" />
+    <state width="1138" height="204" key="GridCell.Tab.1.left" timestamp="1585032139342">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1138" height="204" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585032139342" />
+    <state width="1138" height="204" key="GridCell.Tab.1.right" timestamp="1585032139343">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1138" height="204" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585032139343" />
     <state x="323" y="67" key="NewModule_or_Project.wizard" timestamp="1584952671439">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -356,21 +426,29 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584949280818" />
-    <state x="289" y="95" key="Vcs.Push.Dialog.v2" timestamp="1585017300397">
+    <state x="289" y="95" key="Vcs.Push.Dialog.v2" timestamp="1585029483536">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="289" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585017300397" />
+    <state x="289" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585029483536" />
     <state x="491" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584621574347">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="491" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1584621574347" />
-    <state x="115" y="0" key="new project wizard" timestamp="1585013620718">
+    <state x="115" y="0" key="new project wizard" timestamp="1585029730186">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="115" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1585013620718" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1584948849435">
+    <state x="115" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1585029730186" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1585031114658">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1584948849435" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1585031114658" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="((CachingExecutor)((DefaultSqlSession)sqlSession).executor).delegate" custom="org.apache.ibatis.executor.CachingExecutor,org.apache.ibatis.session.defaults.DefaultSqlSession" />
+        <watch expression="((CachingExecutor)((DefaultSqlSession)sqlSession).executor).delegate" language="JAVA" custom="org.apache.ibatis.executor.CachingExecutor,org.apache.ibatis.session.defaults.DefaultSqlSession" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
