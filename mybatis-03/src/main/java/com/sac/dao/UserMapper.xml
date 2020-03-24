@@ -14,4 +14,12 @@
     <select id="getUserList" resultMap="UserMap">
          select * from user
     </select>
+
+    <select id="getUserByLimit" parameterType="map" resultType="com.sac.pojo.User">
+        select * from user limit #{startIndex},#{pageSize}
+    </select>
+
+    <select id="getUserByRowBounds" resultMap="UserMap">
+        select * from user
+    </select>
 </mapper>
